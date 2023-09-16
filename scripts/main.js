@@ -2,6 +2,6 @@ function onSubmit (){
   alert("オフィスでムネさんにあってコーヒが飲みたくなりました。");
 }
 
-document.querySelector("submit").addEventListener("click", () => {
-  showMap("map")
+document.querySelector("button").addEventListener("click", () => {
+  alert("地図が表示されました!")
 });
